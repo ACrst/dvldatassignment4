@@ -28,7 +28,7 @@ This Shiny app will predict the price of a diamond based on your input of these 
 
 A summary of the diamonds dataset is as shown below. These factors were observed in over 50000 diamonds.
 
-```{r echo=FALSE}
+```{r echo=TRUE}
 library(ggplot2)
 data(diamonds)
 str(diamonds[,c(1:4,7)])
@@ -49,7 +49,7 @@ Links:
 
 ## A simple Summary plot of the diamond data with each of the feature variables plotted 
 
-```{r echo=FALSE}
+```{r echo=TRUE}
 plot(diamonds[,c(1:4,7)])
 
 ```
